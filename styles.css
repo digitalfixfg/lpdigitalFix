@@ -1,0 +1,83 @@
+/* Fuente global: Poppins */
+body, h1, h2, h3, p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Encabezado general */
+header {
+  background-color: #f4f9fc;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow-x: hidden;
+}
+
+/* Contenedor interno centrado */
+.header-contenido {
+  padding: 2rem;
+}
+
+/* Texto principal */
+.header-texto h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #4b3b5a;
+  margin-bottom: 0.5rem;
+}
+
+.header-texto h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.header-texto p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Botón personalizado */
+.header-texto .btn {
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.header-texto .btn:hover {
+  background-color: #1ebe5d;
+}
+
+/* Imagen con estilo */
+.header-logo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.header-logo img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .header-texto {
+    text-align: center;
+  }
+
+  .header-logo {
+    margin-top: 2rem;
+  }
+
+  .header-texto h1 {
+    font-size: 3rem;
+  }
+
+  .header-texto h2 {
+    font-size: 1.5rem;
+  }
+}
